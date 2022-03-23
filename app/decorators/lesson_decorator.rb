@@ -1,4 +1,5 @@
 class LessonDecorator < ApplicationDecorator
+
   def title
     if is_project?
       "Project: #{lesson.title}"
